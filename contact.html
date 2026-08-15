@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>צור קשר — The Long Rest</title>
+<meta name="description" content="קבעו הרפתקת D&amp;D חד-פעמית לקבוצה מלאה, או שריינו מקום בקמפיין לבד או עם חברים. שלחו את הפרטים שלכם והתאריכים המועדפים כדי להתחיל." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,4 93,27 93,73 50,96 7,73 7,27' fill='%23cea344'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;600;700&family=David+Libre:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <button class="nav-toggle" aria-label="פתיחת תפריט הניווט" aria-expanded="false">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">בית</a></li>
+      <li><a href="services.html">שירותים ומחירים</a></li>
+      <li><a href="about.html">אודות</a></li>
+      <li><a href="contact.html" aria-current="page">צור קשר</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">קביעת מפגש</a>
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="הלוגו של The Long Rest" />
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="padding: 4.5rem 0 3rem;">
+    <div class="container hero-inner">
+      <div class="eyebrow">יצירת קשר</div>
+      <h1>בואו נמצא את הקבוצה שלכם.</h1>
+      <p class="lead">שלחו לנו כמה פרטים — לבד, עם חבר, או קבוצה מלאה — ואנחנו נחזור אליכם עם זמינות, שלבים הבאים וכל שאלה שיש לנו. מפגשים בדרך כלל נקבעים 2–3 שבועות מראש.</p>
+    </div>
+  </section>
+
+  <section style="padding-top: 1rem;">
+    <div class="container">
+      <div class="contact-layout">
+
+        <div class="contact-info reveal">
+          <div class="info-row">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div>
+              <h3>אימייל</h3>
+              <p><a href="mailto:dndyavne@gmail.com">dndyavne@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z"/></svg>
+            <div>
+              <h3>מבוססים ביבנה</h3>
+              <p>אנחנו מבוססים ביבנה ומריצים את כל המפגשים פנים אל פנים. ציינו את המיקום שלכם בטופס ואנחנו נאשר מה מתאים.</p>
+            </div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 15H8v-1h8v1zm0-3H8v-1h8v1zm0-3H8V9h8v3z"/></svg>
+            <div>
+              <h3>זמן מענה</h3>
+              <p>אנחנו עונים לכל הפניות בתוך 48 שעות.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card reveal">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">שם <span class="req">*</span></label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+                <div class="error-msg">נא להזין את שמך.</div>
+              </div>
+              <div class="field">
+                <label for="email">אימייל <span class="req">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+                <div class="error-msg">נא להזין כתובת אימייל תקינה.</div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="session-type">סוג המפגש <span class="req">*</span></label>
+                <select id="session-type" name="session-type" required>
+                  <option value="" disabled selected>בחרו אפשרות...</option>
+                  <option value="One-shot (full group)">הרפתקה חד-פעמית (קבוצה מלאה)</option>
+                  <option value="Join a campaign">הצטרפות לקמפיין</option>
+                  <option value="Writing workshop">סדנת כתיבה</option>
+                  <option value="Not sure yet">עדיין לא בטוח/ה</option>
+                </select>
+                <div class="error-msg">נא לבחור סוג מפגש.</div>
+              </div>
+              <div class="field">
+                <label for="age-group">קבוצת גיל <span class="req">*</span></label>
+                <select id="age-group" name="age-group" required>
+                  <option value="" disabled selected>בחרו אפשרות...</option>
+                  <option value="Grade 3-5">כיתות ג'–ה'</option>
+                  <option value="Grade 6-7">כיתות ו'–ז'</option>
+                </select>
+                <div class="error-msg">נא לבחור קבוצת גיל.</div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="party-size">גודל הקבוצה</label>
+                <input type="text" id="party-size" name="party-size" placeholder="לדוגמה: רק אני, או 4 שחקנים" />
+              </div>
+              <div class="field">
+                <label for="preferred-date">תאריכים מועדפים</label>
+                <input type="text" id="preferred-date" name="preferred-date" placeholder="לדוגמה: סופי שבוע בספטמבר" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">הודעה <span class="req">*</span></label>
+              <textarea id="message" name="message" required placeholder="ספרו לנו קצת על עצמכם (או על הקבוצה שלכם), רמת הניסיון, ומה אתם מחפשים."></textarea>
+              <div class="error-msg">נא להוסיף הודעה קצרה.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">שליחת פנייה</button>
+
+            <div id="form-status" class="form-status" role="status"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="הלוגו של The Long Rest" />
+      </a>
+      <p>ניהול משחק מקצועי להרפתקאות חד-פעמיות ולקמפיינים. שולחנות קטנים, סיפורים גדולים.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>ניווט</h4>
+        <ul>
+          <li><a href="index.html">בית</a></li>
+          <li><a href="services.html">שירותים ומחירים</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>צור קשר</h4>
+        <ul>
+          <li><a href="mailto:dndyavne@gmail.com">dndyavne@gmail.com</a></li>
+          <li><a href="contact.html">טופס הזמנה</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 כל הזכויות שמורות.</span>
+    <span>נבנה עבור הרפתקנים, בידי שני הרפתקנים.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
